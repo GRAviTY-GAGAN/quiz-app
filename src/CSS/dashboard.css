@@ -1,0 +1,10 @@
+.dashboard__cardsCont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width:500px) {
+    .dashboard__cardsCont {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

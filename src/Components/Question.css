@@ -1,0 +1,9 @@
+.rightAns {
+    background-color: green;
+    color: white;
+}
+
+.wrongAns {
+    background-color: red;
+    color: white;
+}
